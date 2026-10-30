@@ -16,7 +16,7 @@ I build data pipelines and machine learning models end to end — from messy raw
 | [**postgres-etl-pipeline**](https://github.com/johnshaw-data/postgres-etl-pipeline) | Incremental ETL from 3 SQL Server store databases into a central PostgreSQL repository | High-water-mark extraction, customer upserts, SQL verification; diagnosed a UTC vs. local-time bug |
 | [**credit-default-prediction**](https://github.com/johnshaw-data/credit-default-prediction) | Predicts credit card default for a financial-inclusion lender | Random Forest, AUC-ROC 0.777 on 4,500 held-out accounts; compared against KNN+SMOTE and a neural network |
 | [**yeast-expression-classification**](https://github.com/johnshaw-data/yeast-expression-classification) | Classifies yeast samples by experimental condition from 6,071-gene expression profiles | PCA + Logistic Regression vs. a PyTorch VAE; leak-free CV; GO enrichment |
-| [**facial-verification-prototype**](https://github.com/johnshaw-data/facial-verification-prototype) | On-device face verification for laptop login | Custom CNN vs. FaceNet embeddings, evaluated against a formal security spec |
+| [**home-price-prediction**](https://github.com/johnshaw-data/king-county-home-prices) | Predicts home sale prices from property, location and crime data | Geospatial ZIP join + 140K crime reports; Random Forest R² 0.85 on unseen 2023 sales |
 
 ### 💡 How I work
 - **Validation I can defend** — stratified splits, preprocessing fit inside each CV fold, held-out test sets.
